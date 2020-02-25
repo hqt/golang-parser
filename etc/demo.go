@@ -2,7 +2,7 @@ package parser
 
 import "fmt"
 
-func A(fuck int, shit int) {
+func NormalFunc(param1 int, param2 int) {
 	cc := 10
 	fmt.Println(cc)
 }
