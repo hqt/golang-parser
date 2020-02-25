@@ -14,6 +14,13 @@ gen-parser:
 			  parser/go_parser.go;
 .PHONY: gen-parser
 
+test-unit:
+	go test
+.PHONY: test-unit
+
+test: gen-parser test-unit
+.PHONY: test
+
 test-grunt:
 	java -jar etc/antlr-4.8-complete.jar org.antlr.v4.gui.TestRig
 .PHONY: test-grunt

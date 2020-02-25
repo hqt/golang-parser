@@ -4,3 +4,9 @@
 ```bash
 make gen-parser
 ```
+
+- Run test:
+```bash
+make test-unit
+make test
+```
